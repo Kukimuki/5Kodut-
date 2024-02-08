@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Protest Guerrilla', sans-serif; /* Muudetud font 'PT Sans' -> 'Protest Guerrilla' */
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/coffee2.jpg.jpeg');
+    background-size: cover;
+    background-position:bottom ;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a{
+    background-color: rgba(105, 230, 105, 0.616);
+    
+    color: rgb(255, 228, 196);
+    display: inline-block;
+    border: 2px solid;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1.5 ease-in-out;
+
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.05);
+}
+
+.intro-text {
+    background-color: rgb(187, 147, 102);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+
+
+}
+
+.intro-text__textbox h3 {
+font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url('../img/coffee1.jpg');
+    background-size:cover ;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quality-image__link a {
+    background-color: red;
+    color: rgb(17, 240, 9);
+    display: inline-block;
+    border: 2px solid rgb(11, 189, 41);
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1.5 ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.05);
+}
+
+.Quality-text {
+    background-color: burlywood;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: grey;
+    color: rgb(235, 193, 143);
+    font-size:2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+display: inline-block;
+margin: 1rem;
+}
+
+.footer ul li a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.footer ul li :hover {
+    color: whitesmoke;
+    transform: scale(1.5);
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url('../img/coffee.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a {
+    background-color: rgba(105, 230, 105, 0.616);
+    color: rgb(255, 228, 196);
+    display: inline-block;
+    border: 2px solid;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1.5s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.05);
+}
+
+.origin-image__textbox {
+    background-color: rgba(105, 230, 105, 0.616);
+    color: rgb(117, 65, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    flex-direction: column; /*paneb tekstile pealkirja*/
+}
+
+.origin-image__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image__textbox p {
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+    
+}
